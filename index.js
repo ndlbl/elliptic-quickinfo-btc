@@ -18,7 +18,7 @@ process.argv.slice(2).forEach(function (val, index, array) {
         console.log(`The address ${process.argv[2 + index]}, and holds a bitcoin balance of  ${response.data.final_balance} satoshis or ${response.data.final_balance / 100000000}, with ${response.data.unconfirmed_n_tx} unconfirmed transactions`)
       }
 
-      if (i === 2) {
+      if (i === 1) {
         if (response.data.assets.held !== 0) {
           console.log(`also holding  ${response.data.assets.held} Counterparty (XCP) Assets`)
         }
