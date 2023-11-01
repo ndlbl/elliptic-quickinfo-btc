@@ -1,0 +1,35 @@
+{
+  "name": "ellipquick",
+  "version": "1.0.0",
+  "description": "basic address scan for assets and bitcoin.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n/a.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "scan",
+    "info"
+  ],
+  "author": "ndlbl",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a#readme",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
